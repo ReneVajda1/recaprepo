@@ -1,6 +1,4 @@
-import java.time.DayOfWeek;
-
-public class variables {
+public class Variables {
 
     //Create a variable of type int called daysInWeek
     // and set it to the correct value.

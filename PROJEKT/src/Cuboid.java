@@ -8,8 +8,19 @@ public class Cuboid {
     // Surface Area: 672.76
     // Volume: 1151.28
     public static void main(String[] args) {
-        double bottom = 10.4;
-        double side = 13.5;
-        double top =
+        double a = 10.4;
+        double b = 13.5;
+        double c = 8.2;
+        double bottom = a*b;
+        double top = bottom;
+        double front = a*c;
+        double back = front;
+        double rightSide = c*b;
+        double leftSide = rightSide;
+        double surfaceArea = bottom+top+front+back+rightSide+leftSide;
+        System.out.println("Surface area: "+ surfaceArea);
+        System.out.println("Volume: "+a*b*c);
+
+
     }
 }

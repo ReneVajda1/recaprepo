@@ -13,10 +13,8 @@ public class CuboidScanner {
         Scanner surfaceAreaScanner = new Scanner(System.in);
         System.out.println("Enter the width: ");
         double a = surfaceAreaScanner.nextDouble();
-
         System.out.println("Enter the length: ");
         double b = surfaceAreaScanner.nextDouble();
-
         System.out.println("Enter the height: ");
         double c = surfaceAreaScanner.nextDouble();
 
@@ -31,8 +29,6 @@ public class CuboidScanner {
         System.out.println("Surface Area: " + surfaceArea);
         double volume = a*b*c;
         System.out.println("Volume: " + volume);
-
-
 
     }
 

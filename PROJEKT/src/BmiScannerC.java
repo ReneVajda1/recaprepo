@@ -17,7 +17,7 @@ public class BmiScannerC {
 
         // Print the BMI result and category
         System.out.printf("Your BMI is: %.2f%n", bmi);
-        
+
         if (bmi < 18.5) {
             System.out.println("Underweight");
         } else if (bmi < 25) {

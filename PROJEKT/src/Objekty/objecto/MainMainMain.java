@@ -1,6 +1,4 @@
-package object.objecto;
-
-import object.objecto.Kava;
+package Objekty.objecto;
 
 public class MainMainMain {
     @Override

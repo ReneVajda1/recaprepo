@@ -1,4 +1,4 @@
-package object.objecto;
+package Objekty.objecto;
 
 public class Kava  {
  public Kava(String typ, double teplota, double cena, boolean jeNaSklade) {

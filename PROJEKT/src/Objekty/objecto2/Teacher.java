@@ -1,4 +1,5 @@
 package Objekty.objecto2;
+
 public class Teacher   {
     public void teach(Student student1) {
         System.out.println("the Teacher is teaching");

@@ -9,7 +9,7 @@ public class Car {
 
 
 
-    public static Car(String name) {
+    public Car(String name) {
         this.name = name;
         this.gasAmount = 0;
         this.capacity = 100;

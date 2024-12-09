@@ -2,7 +2,7 @@ package Objekty.objecto3;
 
 public class Station {
 
-    int gasAmount;
+    static int gasAmount;
     static String name;
 
     public Station(int gasAmount,String name) {

@@ -1,3 +1,5 @@
+package RandomExercises;
+
 public class CuboidArray {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package RandomExercises;
+
 public class AppendAFunction {
     // Create the usual class wrapper (AppendAFunc) and main method on your own
 

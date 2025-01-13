@@ -1,3 +1,5 @@
+package RandomExercises;
+
 public class Variables {
 
     //Create a variable of type int called daysInWeek

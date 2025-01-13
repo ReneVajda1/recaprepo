@@ -1,3 +1,5 @@
+package RandomExercises;
+
 import java.util.Scanner;
 
 public class Samohlasky {

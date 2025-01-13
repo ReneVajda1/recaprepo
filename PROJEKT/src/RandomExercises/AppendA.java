@@ -1,3 +1,5 @@
+package RandomExercises;
+
 public class AppendA {
     public static void main(String[] args) {
         // - Create an array variable named `animals`

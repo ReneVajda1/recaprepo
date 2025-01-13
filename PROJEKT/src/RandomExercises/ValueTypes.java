@@ -1,3 +1,5 @@
+package RandomExercises;
+
 public class ValueTypes {
     public static void main(String[] args) {
         String hello = "Hello, World!";

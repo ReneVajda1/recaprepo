@@ -1,3 +1,5 @@
+package RandomExercises;
+
 public class HelloFunction {
     public static void main(String[] args) {
     String dodo = "Ďoďo";

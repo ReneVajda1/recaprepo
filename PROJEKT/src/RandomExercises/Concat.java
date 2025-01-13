@@ -1,3 +1,5 @@
+package RandomExercises;
+
 public class Concat {
     public static void main(String[] args) {
         // String and special characters

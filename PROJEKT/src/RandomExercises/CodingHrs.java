@@ -1,3 +1,5 @@
+package RandomExercises;
+
 public class CodingHrs {
 
     public static void main(String[] args) {

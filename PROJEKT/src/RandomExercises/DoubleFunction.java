@@ -1,3 +1,5 @@
+package RandomExercises;
+
 public class DoubleFunction {
     public static void main(String[] args) {
         // - Create an integer variable named `baseNumber` and

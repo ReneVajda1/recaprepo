@@ -14,7 +14,17 @@ public class Cookie {
     public CookieState getState() {
         return state;
     }
-    public void setState(CookieState state) {
+    private void setState(CookieState state) {
         this.state = state;
+    }
+
+    public void bake(){
+        if (this.getState() == CookieState.RAW){
+            this.setState(CookieState.IN_PROGRESS);
+        } else if (this.getState().equals(CookieState.IN_PROGRESS)) {
+            this.setState(CookieState.DONE);
+        } else {
+            this.setState(CookieState.DONE);
+        }
     }
 }

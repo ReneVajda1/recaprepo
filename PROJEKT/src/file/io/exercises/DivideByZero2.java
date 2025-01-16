@@ -24,7 +24,7 @@ public class DivideByZero2 {
         }
     }
 
-    
+
 //        // Examples:
 //        divide10By(2); // should print 5
 //        divide10By(5); // should print 2

@@ -23,7 +23,8 @@ public class PrintOddEvenWithLoop {
                 }
                 break;
             } catch (InputMismatchException e ) {
-                System.out.println("ERROR: ENTER ONLY NUMERIC VALUES PLEASE");
+                String errorMessage = "|>>!! ERROR: ENTER ONLY NUMERIC VALUES PLEASE !!<<|  -  ";
+                System.out.println(errorMessage.repeat(3));
                 scan1.nextLine();
             }
         }

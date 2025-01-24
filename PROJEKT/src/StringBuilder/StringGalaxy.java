@@ -14,23 +14,26 @@ public class StringGalaxy {
 
         galaxyReplace(example + " 2 ");
 
+
+
+        galaxyReplace(example + " 555");
+
         StringBuilder sb2 = new StringBuilder(example);
-        example.replace("far","not far " + " 3 ");
-        System.out.println(example + " 5 ");
-
-
-        System.out.println(sb2.replace(5,11,"FAR FAR" + " 4 ")  );
-
-
+//        example.replace("far","not far " + " 3 ");
+//        System.out.println(example + " 5 ");
+//
+//
+//        System.out.println(sb2.replace(5,11,"FAR FAR" + " 4 ")  );
+//
+//
         System.out.println(Pattern.compile("dishwasher").matcher(sb2).replaceAll("galaxy"));
     }
 
     public static void galaxyReplace(String input){
         StringBuilder sb = new StringBuilder(input);
 
-        if (input.contains("dishwasher")) {
-            input.replace("dishwasher","Galaxy");
-            System.out.println(input);
-        }
+            sb.replace(4,11,"asdf");
+            System.out.println(sb.toString());
+
     }
 }

@@ -7,7 +7,10 @@ public class SbDifferentTests {
         hello1(string);
         System.out.println(hello2(string));
         hello3(string);
-      
+
+      // wont work  System.out.println(hello3(string));
+
+        hello4Reversed(string);
     }
 
     public static void hello1(String input){
@@ -28,5 +31,11 @@ public class SbDifferentTests {
         StringBuilder sb = new StringBuilder(input);
         sb.append(" helloooo");
         System.out.println(sb.append(" helloooo") + sb.toString());
+    }
+
+    public static void hello4Reversed(String input){
+        StringBuilder sb = new StringBuilder(input);
+        sb.reverse();
+        System.out.println(sb.toString());
     }
 }

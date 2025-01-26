@@ -5,6 +5,8 @@ public class SbDifferentTests {
         String string = "hi";
 
         hello(string);
+        System.out.println(hellohi(string));
+
     }
 
     public static void hello(String input){
@@ -14,11 +16,10 @@ public class SbDifferentTests {
         System.out.println(sb.toString());
     }
 
-    public static void hellooo(String input){
+    public static StringBuilder hellohi(String input){
         StringBuilder sb = new StringBuilder(input);
+        sb.append(" HelloHI");
 
-        
-        sb.append(" hello");
-        System.out.println(sb.toString());
+        return sb;
     }
 }

@@ -11,6 +11,9 @@ public class SbDifferentTests {
       // wont work  System.out.println(hello3(string));
 
         hello4Reversed(string);
+
+        hello5ReverseBack(string);
+
     }
 
     public static void hello1(String input){
@@ -37,5 +40,11 @@ public class SbDifferentTests {
         StringBuilder sb = new StringBuilder(input);
         sb.reverse();
         System.out.println(sb.toString());
+    }
+
+    public static StringBuilder hello5ReverseBack(String input){
+        StringBuilder sb = new StringBuilder(input);
+        sb.reverse();
+        return  sb;
     }
 }

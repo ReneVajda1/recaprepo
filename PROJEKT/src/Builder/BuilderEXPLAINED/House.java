@@ -1,11 +1,12 @@
 package Builder.BuilderEXPLAINED;
 
 public class House {
+
     private int stories;
     private String doorType;
     private String roofType;
 
-    // NOT CALLING CONSTRUCTOR 
+    // NOT CALLING CONSTRUCTOR
 //    public House(int stories, String doorType, String roofType) {
 //        this.stories = stories;
 //        this.doorType = doorType;
@@ -18,10 +19,6 @@ public class House {
     // 2 build method that returns construction of the house
 
     // We are not calling constructor
-
-
-
-
 
 }
 

@@ -5,6 +5,8 @@ public class ReverseString {
         String duckReversed = "kcuD";
 
         reverseString(duckReversed);
+
+        stringBuilderReverse(duckReversed);
     }
 
 
@@ -13,5 +15,12 @@ public class ReverseString {
 
         sb.reverse();
         System.out.println(sb.toString());
+    }
+
+    public static StringBuilder stringBuilderReverse(String input){
+        StringBuilder sb = new StringBuilder(input);
+        sb.reverse();
+        System.out.println(sb.toString());
+        return sb;
     }
 }

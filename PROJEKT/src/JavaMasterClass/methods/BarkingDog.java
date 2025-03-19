@@ -12,7 +12,7 @@ public class BarkingDog {
         if (hoursOfDay < 0 || hoursOfDay > 23) {
             return false;
         }
-        if (barking && (hoursOfDay < 8 || hoursOfDay > 22)) {
+        if (barking == true && (hoursOfDay < 8 || hoursOfDay > 22)) {
             return true;
         }
         return false;

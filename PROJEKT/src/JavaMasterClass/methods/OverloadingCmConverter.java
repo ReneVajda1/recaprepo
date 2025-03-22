@@ -2,8 +2,9 @@ package JavaMasterClass.methods;
 
 public class OverloadingCmConverter {
     public static void main(String[] args) {
-        System.out.println(convertToCentimeters(10.5));
+
         System.out.println(heightInFeets(6,5));
+
     }
 
     public static double convertToCentimeters(int entireHeightInInches){
